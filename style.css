@@ -1,0 +1,110 @@
+*{box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Barlow Condensed', sans-serif;
+}
+li{
+    list-style: none;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgba(41, 41, 41, 0.6);
+    height: 50px;
+}
+.nav{
+    display: flex;
+    right: 50px;
+    align-items: center;
+}
+.nav-item{
+    margin:10px;
+}
+.sign-in-btn{
+    border: 1px solid white;
+    background-color: transparent;
+    color: white;
+    height: 30px;
+    width: 70px;
+
+}
+.jumbotron{
+    height: 470px;
+    background-size:cover;
+    background-position: center;
+}
+.gridWork{
+    margin: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 400px 400px;
+    grid-template-areas: "item1 item2 item3"
+                        "item1 item4 item5";
+}
+.artContainer{
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 5px;
+    cursor: pointer;
+    display: grid;
+    align-content: end;
+}
+.artInfo{width: auto;
+    height: 72px;
+    padding:5%;
+    bottom: ;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    font-size: 17px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-weight: 700;
+    text-align: center;}
+#art1{
+    grid-area: item1;
+    width: auto;
+    margin: 5px;
+    background-image: url('images/nezuko.png');
+    background-size: cover;
+}
+#art2{
+    grid-area: item2;
+    width: auto;
+    margin: 5px;
+    background-image: url('/images/mikasa.gif');
+    background-size: cover;
+}
+#art3{
+    background-image: url('/images/Untitled13.png');
+    grid-area: item3;
+    width: auto;
+    margin: 5px;
+    background-size: cover;
+}
+#art4{
+    grid-area: item4;
+    width: auto;
+    margin: 5px;
+    background-image: url('/images/LavenderBackYard2.png');
+    background-size: cover;
+}
+#art5{
+    grid-area: item5;
+    width:auto;
+    margin: 5px;
+    background-image: url('/images/miley-ahihi.jpg');
+    background-size: cover;
+}
+.artContainer{
+    background-position: center;
+    background-size: cover;
+}
